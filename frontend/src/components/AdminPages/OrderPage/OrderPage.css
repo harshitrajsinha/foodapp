@@ -1,0 +1,121 @@
+.wrapper {
+  margin: 30px;
+  padding: 20px;  
+}
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+}
+
+.react-datepicker {
+  font-family: 'Roboto', sans-serif;
+  
+  border:1px solid;
+  
+}
+
+.react-datepicker__input-container input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border:none;
+}
+.react-datepicker__input-container input:focus {
+  border-color: #ffa31e;
+}
+.calendar-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.view-users-button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #ffa31e;
+  color: #fff;
+  border: 1px solid #ffa31e;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.view-users-button:hover {
+  background-color: #fff;
+  color: #ffa31e;
+  border-color: #ffa31e;
+}
+
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.order-tile {
+  border: 2px solid #ffa31e;
+  padding: 20px;
+  border-radius: 10px;
+  width: calc(33% - 40px);
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.order-tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-next-day {
+  background-color: #ffefcc;
+  
+}
+
+.order-date {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.order-details h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.order-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.order-details li {
+  margin-bottom: 5px;
+  color: #555;
+}
+.view-users-container {
+  margin-top: 20px; /* Add margin-top for spacing */
+  text-align: center; /* Align button to center */
+}
+
+@media (max-width: 768px) {
+  .order-tile {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .order-tile {
+    width: 100%;
+  }
+}

@@ -1,0 +1,64 @@
+.new-btn{
+  border:0px;
+}
+
+.navbar-brand img {
+  max-width: 100px; /* Adjust this value as needed */
+  height: auto;
+  max-height: 100px;
+}
+.loginBtn button.btn {
+  padding: 10px 20px; /* Adjust padding for responsiveness */
+  font-size: 14px; /* Adjust font size for responsiveness */
+}
+
+.weekly-menu-image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.weekly-menu-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.image-popup-content {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.popup-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

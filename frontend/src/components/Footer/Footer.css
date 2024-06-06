@@ -1,0 +1,213 @@
+/* 
+.footer {
+  background-color: #FFA31E;
+  padding: 40px 0;
+  position: relative;
+}
+.footer:after {
+  position: absolute;
+  content: "";
+  background-image: url(./mask5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 85px;
+  height: 125px;
+  top: 0;
+  left: 0;
+}
+.footer:before {
+  position: absolute;
+  content: "";
+  background-image: url(./mask4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 85px;
+  height: 125px;
+  right: 0;
+  bottom: 0;
+}
+
+.row{
+  display: flex;
+}
+.footer .footerInner .subscribeOuter {
+  padding: 0 0 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer .footerInner .subscribeOuter .logisticSubscribeTxt h4 {
+  font-family: "Jacques Francois", sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.footer .footerInner .subscribeOuter .logisticSubscribeTxt h4 span {
+  font-family: "Covered By Your Grace";
+}
+
+.footer .footerInner .subscribeOuter .logisticSubscribeTxt p {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.footer .footerInner .subscribeOuter .subscribeInpt form .input-group {
+  border-radius: 50px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.input-group{
+  display: flex;
+  width: 500px;
+  height: 70px;
+  justify-content: space-between;
+}
+.subscribeInpt{
+  flex-grow: 1;
+}
+.logisticSubscribeTxt{
+flex-grow: 1;
+}
+
+.footer .footerInner .subscribeOuter .subscribeInpt form .input-group .form-control {
+  border: 0px;
+}
+
+.footer .footerInner .subscribeOuter .subscribeInpt form .input-group .btnPrimary:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-radius: 50px;
+}
+
+.footer .footerInner .middleContent .footerLogo {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+.footer .footerInner .middleContent .footerMenu {
+  padding: 20px 0 40px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer .footerInner .middleContent .footerMenu ul {
+  justify-content:center;
+  display: flex;
+}
+
+.footer .footerInner .middleContent .footerMenu ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+
+.footer .footerInner .middleContent .footerMenu ul li a:hover {
+  color: #111111;
+}
+
+.footer .footerInner .footContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer .footerInner .footContent .copyRight p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer .footerInner .footContent .copyRight p a {
+  color: #5E0821;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer .footerInner .footContent .copyRight p a:hover {
+  text-decoration: underline;
+}
+
+.footer .footerInner .footContent .socialMedia ul {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .footerInner .footContent .socialMedia ul li a {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 28px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.footer .footerInner .footContent .socialMedia ul li a .fa-brands {
+  transition: all 0.4s ease;
+}
+
+.footer .footerInner .footContent .socialMedia ul li a:hover {
+  border-color: #111111;
+}
+
+.footer .footerInner .footContent .socialMedia ul li a:hover .fa-brands {
+  transform: scale(0.8);
+  color: #111111;
+}
+
+
+@media (max-width: 767px) {
+  .footer .footerInner .footContent {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer .footerInner .subscribeOuter .logisticSubscribeTxt h4 {
+    font-size: 28px;
+  }
+  .footer .footerInner .subscribeOuter .subscribeInpt form .input-group {
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .footer .footerInner .subscribeOuter .subscribeInpt form .form-control {
+    border: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer .footerInner .middleContent .footerMenu ul li a {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .footer .footerInner .subscribeOuter .logisticSubscribeTxt p {
+    font-size: 15px;
+  }
+  .footer .footerInner .footContent .copyRight p {
+    font-size: 14px;
+  }
+  .footer .footerInner .footContent .copyRight p a {
+    font-size: 14px;
+  }
+  .footer .footerInner .footContent .socialMedia ul li a {
+    font-size: 20px;
+  }
+} */
+
+.footerLogo img {
+  max-width: 100px; /* Adjust this value as needed */
+  height: auto;
+  max-height: 100px;
+}

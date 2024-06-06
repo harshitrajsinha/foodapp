@@ -1,0 +1,35 @@
+.order-wrapper {
+  padding: 16px;
+  margin: 0 auto; /* Center the content horizontally */
+  max-width: 1200px; /* Set maximum width for the content */
+}
+
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center; /* Center align tiles */
+  margin-left: -8px; /* Add negative margin to counteract gap */
+  margin-right: -8px; /* Add negative margin to counteract gap */
+}
+
+.order-tile {
+  border: 2px solid #ffa31e;
+  border-radius: 8px;
+  padding: 16px;
+  width: calc(50% - 16px); /* Set width for two tiles per row */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.order-tile:hover {
+  background-color: #ffa31e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .order-tile {
+    width: 100%; /* Set width to 100% for one tile per row on smaller screens */
+  }
+}

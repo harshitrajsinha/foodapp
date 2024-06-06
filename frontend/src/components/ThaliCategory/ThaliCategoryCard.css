@@ -1,0 +1,63 @@
+/* .thali-category-card {
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.thali-category-card:hover {
+  transform: translateY(-5px);
+}
+
+.thali-category-image img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f0a500;
+}
+
+.thali-category-details {
+  padding: 16px;
+}
+
+.thali-category-details h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.thali-category-details .price {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0.5em 0;
+}
+
+.thali-category-details .description {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 1em;
+}
+
+.thali-category-details h3 {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+.thali-category-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.thali-category-details ul li {
+  text-align: left;
+  padding: 4px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.thali-category-card .stars {
+  color: #f0a500;
+  font-size: 1.2em;
+} */

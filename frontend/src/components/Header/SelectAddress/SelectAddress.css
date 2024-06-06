@@ -1,0 +1,40 @@
+  
+  .select-address .btnSelectAddress {
+    background-color: #ffa31e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .select-address .modal-content {
+    border-color: #ffa31e;
+  }
+  
+  .address-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .address-card:hover {
+    border-color: #ffa31e;
+  }
+  
+  .address-card.selected {
+    border-color: #ffa31e;
+  }
+  
+  .selected-address {
+    margin-top: 20px;
+  }
+  
+  .selected-address h5 {
+    color: #ffa31e;
+  }
+  
+  .select-address p{
+    color: #999;
+  }

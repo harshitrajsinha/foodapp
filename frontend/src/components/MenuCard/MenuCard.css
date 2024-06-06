@@ -1,0 +1,110 @@
+.operator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.menu-card {
+  flex: 1;
+  min-width: 35vw;
+  background: #ffffff;
+  border: 1px solid #ffa31e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+  flex: 1 1 calc(50% - 40px); /* Adjust the width of each card */
+  margin: 10px;
+  max-width: 35vw;
+}
+
+.menu-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-card h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: "Jacques Francois";
+}
+
+.add-button {
+  background-color: #ffa31e;
+  color: #fff;
+  border: 1px solid #ffa31e;
+  border-radius: 30px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #fff;
+  border-color: #ffa31e;
+  color: #ffa31e;
+}
+
+
+
+.items-section {
+  margin-bottom: 15px;
+}
+
+.items-section h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.list-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list-group-item {
+  background: #f8f8f8;
+  border: 1px solid #ffa31e;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.list-group-item.selected {
+  border-color: #ffa31e;
+  color: black;
+}
+
+.list-group-item:hover {
+  background: #ffa31e;
+  border-color: #ffa31e;
+}
+
+.list-group-item.selected:hover {
+  background: #ffa31e;
+}
+
+@media (max-width: 768px) {
+  .menu-card {
+      flex: 1 1 100%;
+  }
+}
+
+.checkout-btn {
+  text-align: center;
+  flex: 1;
+  min-width: 30vw;
+}

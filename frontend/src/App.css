@@ -1,0 +1,185 @@
+/* input:focus,
+.form-control:focus,
+button:focus,
+.btn:focus,
+.form-check-input:focus {
+  box-shadow: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+    font-size: 60px;
+  }
+  
+  h2 {
+    font-size: 46px;
+  }
+  
+  h3 {
+    font-size: 46px;
+  }
+  
+  h4 {
+    font-size: 36px;
+  }
+  
+  h5 {
+    font-size: 26px;
+  }
+  
+  h6 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .btnPrimary {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 30px;
+    background: #FFA31E;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.4s ease;
+  }
+
+
+  .btnPrimary svg path {
+    stroke: #ffffff;
+    transition: all 0.4s ease;
+  }
+  .btnPrimary:hover {
+    background: transparent;
+    color: #FFA31E;
+    border: 1px solid #FFA31E;
+  }
+  .btnPrimary:hover svg path {
+    stroke: #FFA31E;
+  }
+  .btnPrimary:focus, .btnPrimary:active, .btnPrimary:first-child:active {
+    color: #FFA31E;
+    background: transparent;
+    border-color: #FFA31E;
+  }
+  .btnPrimary:focus svg path, .btnPrimary:active svg path, .btnPrimary:first-child:active svg path {
+    stroke: #FFA31E;
+  }
+  
+  .btnSecondary {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 30px;
+    border: 1px solid #FFA31E;
+    color: #FFA31E;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.4s ease;
+  }
+  .btnSecondary svg path {
+    stroke: #FFA31E;
+  }
+  .btnSecondary:hover {
+    background: transparent;
+    color: #ffffff;
+    background: #FFA31E;
+    transition: all 0.4s ease;
+  }
+  .btnSecondary:hover svg path {
+    stroke: #ffffff;
+  }
+  .btnSecondary:focus, .btnSecondary:active, .btnSecondary:first-child:active {
+    color: #ffffff;
+    background: #FFA31E;
+    border-color: #FFA31E;
+  }
+  .btnSecondary:focus svg path, .btnSecondary:active svg path, .btnSecondary:first-child:active svg path {
+    stroke: #FFA31E;
+  }
+  
+  .btnThird {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 30px;
+    border: 1px solid #F92456;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    background: linear-gradient(90deg, #FA2456 0%, #FD735A 100%);
+  }
+  .btnThird svg path {
+    stroke: #ffffff;
+    transition: all 0.4s ease;
+  }
+  .btnThird:hover {
+    background: transparent;
+    color: #F92456;
+    transition: all 0.4s ease;
+    border: 1px solid #F92456;
+  }
+  .btnThird:hover svg path {
+    stroke: #F92456;
+  }
+  .btnThird:focus, .btnThird:active, .btnThird:first-child:active {
+    background: transparent;
+    color: #F92456;
+    border-color: #F92456;
+  }
+  .btnThird:focus svg path, .btnThird:active svg path, .btnThird:first-child:active svg path {
+    stroke: #F92456;
+  }
+  
+  .btnForth {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    color: #F92456;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    background: #ffffff;
+  }
+  .btnForth svg path {
+    stroke: #ffffff;
+    transition: all 0.4s ease;
+  }
+  .btnForth:hover {
+    background: transparent;
+    color: #F92456;
+    transition: all 0.4s ease;
+    border: 1px solid #F92456;
+  }
+  .btnForth:hover svg path {
+    stroke: #F92456;
+  }
+  .btnForth:focus, .btnForth:active, .btnForth:first-child:active {
+    background: transparent;
+    color: #F92456;
+    border-color: #F92456;
+  }
+  .btnForth:focus svg path, .btnForth:active svg path, .btnForth:first-child:active svg path {
+    stroke: #F92456;
+  } */
